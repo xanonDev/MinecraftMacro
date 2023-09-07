@@ -19,7 +19,7 @@ while True:
 	print("2.spambot")
 	choice = input("choice>")
 	if choice=="1":
-		print(" for the bot to start clicking click r \n if it should stop click z \n to go back to the selection click x \n to eat the food you have in slot 2 click c \n to auto clicking ctrl click v \n to throw a snowball or fireball press f to build automatically hold down")
+		print(" for the bot to start clicking click r \n if it should stop click z \n to go back to the selection click x \n to eat the food you have in slot 2 click c \n to auto clicking ctrl click v \n to throw a snowball or fireball in slot 3 press f to build automatically hold down")
 		while True:
 			time.sleep(0.01)
 			if keyboard.is_pressed('r'):
